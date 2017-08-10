@@ -371,7 +371,9 @@ namespace Bonobo.Git.Server.Models
             get
             {
                 if (_data != null)
+                {
                     return Convert.ToBase64String(_data);
+                }
 
                 return null;
             }
