@@ -1,0 +1,18 @@
+﻿/* decrease base font */
+html {
+    font-size: 14px;
+}
+
+/* set smaller font size of h2 in different locations */
+.Repository.Index h2 {
+    font-size: 1.4em;
+}
+
+.Repository.Commits h2 {
+    font-size: 1.25em;
+}
+
+/* increase font size in project's repo browser */
+.Tree .pure-table tbody {
+    font-size: 0.9em;
+}
